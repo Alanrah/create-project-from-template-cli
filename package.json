@@ -1,0 +1,33 @@
+{
+  "name": "create-project-from-template-cli",
+  "version": "1.0.0",
+  "description": "create-project-from-template-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.0",
+    "handlebars": "^4.7.3",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3",
+    "request": "^2.88.2",
+    "shelljs": "^0.8.3",
+    "url": "^0.11.0"
+  },
+  "bin": {
+    "hot": "./bin/entry.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-latest-node": "^4.0.1"
+  }
+}
