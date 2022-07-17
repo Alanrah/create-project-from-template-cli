@@ -8,7 +8,6 @@
 
 暂时只有 hot create这个命令
 
-cd projectName
+cd projectName , 可以看到 vitesse 这个模板项目
 
-yarn dev
 

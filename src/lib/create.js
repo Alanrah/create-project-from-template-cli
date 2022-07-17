@@ -46,7 +46,7 @@ module.exports = (...args) => {
         console.log(symbols.error, chalk.red(`项目创建失败. ${err}`));
         // 如果创建失败 就把现在这个文件夹删了
         if (fs.existsSync(path.resolve())) {
-            shellDeleteFolder(path.resolve());
+            // shellDeleteFolder(path.resolve());
         }
     })
 }
